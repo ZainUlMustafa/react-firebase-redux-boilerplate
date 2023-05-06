@@ -1,0 +1,29 @@
+{
+    "navigations": {
+        "0": {
+            "key": "0",
+            "name": "General",
+            "desc": "These details will be used by DeepRoad to send updates, product details, and reflected in the project report"
+        },
+        "1": {
+            "key": "1",
+            "name": "Pricing plans",
+            "desc": "Tokens are consumable prepaid plans and will be used by DeepRoad to perform project inferences"
+        },
+        "2": {
+            "key": "2",
+            "name": "Order history",
+            "desc": "View all the plans that you have purchased and generate invoice"
+        },
+        "3": {
+            "key": "3",
+            "name": "Edit card",
+            "desc": "Update expiry and related card information"
+        },
+        "4": {
+            "key": "4",
+            "name": "Attach new card",
+            "desc": "The card that you will attach will be used for payments"
+        }
+    }
+}

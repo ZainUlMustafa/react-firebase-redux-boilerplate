@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "notes": [
+        "Something new"
+    ],
+    "title": "🚀 What's new",
+    "forceNoShow": false,
+    "greeting": "React Firebase Redux"
+}

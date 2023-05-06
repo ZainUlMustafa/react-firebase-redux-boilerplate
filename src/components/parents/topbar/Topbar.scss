@@ -1,0 +1,13 @@
+$font-color:#0C153E;
+$topbar-color:#FAFAFA;
+$topbar-borderRadius:20px;
+.font-color{
+    color: $font-color !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+.topbar{
+    background-color: $topbar-color !important;
+    border-radius: $topbar-borderRadius !important;
+    color: black !important;
+}

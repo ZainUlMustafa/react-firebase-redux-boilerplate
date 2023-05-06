@@ -1,0 +1,5 @@
+@use '../../../../App.scss';
+
+.avatar-background-color {
+    background-color: App.$primary-color !important;
+}

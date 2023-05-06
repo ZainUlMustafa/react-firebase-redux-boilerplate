@@ -1,0 +1,70 @@
+{
+    "date": "22 April 2023",
+    "info": [
+        {
+            "order": 0,
+            "title": "",
+            "para": "Welcome to DeepRoad! Before you start using our services, please read the following terms and conditions carefully. By accessing or using our web application, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions."
+        },
+        {
+            "order": 1,
+            "showOrder": true,
+            "title": "Acceptance of Terms and Conditions",
+            "para": "By using our web application, you agree to these terms and conditions. If you do not agree to these terms and conditions, please do not use our web application."
+        },
+        {
+            "order": 2,
+            "showOrder": true,
+            "title": "Description of Service",
+            "para": "Our web application allows you to upload videos and GPS files for AI-based processing. The processed data is stored on the cloud and is completely private to you. Once the data is exported in the form of a report, it will be your responsibility to mindfully share it with your associates and stakeholders."
+        },
+        {
+            "order": 3,
+            "showOrder": true,
+            "title": "Privacy",
+            "para": "We take your privacy seriously. We will only collect and use your personal information in accordance with our privacy policy. By using our web application, you agree to our privacy policy."
+        },
+        {
+            "order": 4,
+            "showOrder": true,
+            "title": "Ownership and Intellectual Property",
+            "para": "You retain ownership of all content that you upload to our web application. However, by uploading content to our web application, you grant us a non-exclusive, worldwide, royalty-free license to use, copy, reproduce, process, adapt, modify, publish, transmit, display, and distribute the content for the purposes of providing our services."
+        },
+        {
+            "order": 5,
+            "showOrder": true,
+            "title": "Prohibited Uses",
+            "para": "You agree not to use our web application for any unlawful purpose or in any way that may damage our web application, impair its availability or accessibility, or interfere with any other user's use of our web application."
+        },
+        {
+            "order": 6,
+            "showOrder": true,
+            "title": "Termination",
+            "para": "We may terminate your access to our web application at any time and for any reason without notice or liability to you. Upon termination, all rights and licenses granted to you will immediately terminate."
+        },
+        {
+            "order": 7,
+            "showOrder": true,
+            "title": "Limitation of Liability",
+            "para": "Our liability to you for any damages arising out of or in connection with your use of our web application will be limited to the amount paid by you (if any) to us for the use of our web application. We will not be liable for any indirect, consequential, punitive, or exemplary damages."
+        },
+        {
+            "order": 8,
+            "showOrder": true,
+            "title": "Changes to Terms and Conditions",
+            "para": "We may change these terms and conditions at any time by posting the revised terms and conditions on our web application. Your continued use of our web application after the posting of the revised terms and conditions will constitute your acceptance of the revised terms and conditions."
+        },
+        {
+            "order": 9,
+            "showOrder": true,
+            "title": "Governing Law and Jurisdiction",
+            "para": "These terms and conditions will be governed by and construed in accordance with the laws of the United Kingdom, and you agree to submit to the exclusive jurisdiction of the courts of the United Kingdom for the resolution of any disputes arising out of or in connection with these terms and conditions."
+        },
+        {
+            "order": 10,
+            "showOrder": true,
+            "title": "Entire Agreement",
+            "para": "These terms and conditions constitute the entire agreement between you and us in relation to your use of our web application and supersede all previous agreements between you and us. Thank you for using DeepRoad."
+        }
+    ]
+}
