@@ -1,7 +1,7 @@
 import { Box, Slider } from "@mui/material"
 
 const WaterLevel = (props) => {
-    const { value, min, max, id } = props.waterLevel
+    const { value, min, max, id, isOpen } = props.waterLevel
     return (
         <>
 
@@ -14,6 +14,7 @@ const WaterLevel = (props) => {
                 max={Number(max)}
             />
             <p>{id}</p>
+            <p>{isOpen? "Opened": "Closed"}</p>
         </>
     )
 }
