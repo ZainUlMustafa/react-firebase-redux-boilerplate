@@ -97,8 +97,8 @@ const SimpleDialogBox = ({ width = 500, minWidth = 400, onClose, onPositive = ((
                     {!showPositive ? <></> : positiveButtonWidget ? positiveButtonWidget : <Button variant="contained" sx={{
                         textTransform: 'initial',
                         marginInline: '2px',
-                        backgroundColor: '#448717', ':hover': {
-                            backgroundColor: '#448717'
+                        backgroundColor: '#1b1c1a', ':hover': {
+                            backgroundColor: '#1b1c1a'
                         },
                     }} onClick={handlePositive}>{positiveText}</Button>}
                 </DialogActions>

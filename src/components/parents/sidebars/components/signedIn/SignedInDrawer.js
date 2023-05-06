@@ -36,15 +36,7 @@ export default compose(
   connect(mapStateToProps, mapDispatchToProps),
   firestoreConnect((props) => {
     const { userData } = props;
-    // TODO: for search to work, enable this
-    // const ueid = props.userData?.uid + props.userData?.employeeid;
-    // const coid = props.userData?.coid;
     return [
-      // {
-      //   collection: 'Projects',
-      //   where: [['accessList', 'array-contains', `${ueid}`], ['coid', '==', `${coid}`]],
-      //   orderBy: [['dateCreated', 'desc']],
-      // },
       {
         collection: "Configurations",
         doc: "OutputPredictions",

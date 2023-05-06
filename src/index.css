@@ -128,7 +128,7 @@ code {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background-color: #448717;
+  background-color: #1b1c1a;
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
   align-items: center;
@@ -143,7 +143,7 @@ code {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background-color: #448717;
+  background-color: #1b1c1a;
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
   font-weight: 400;
@@ -151,7 +151,7 @@ code {
 
 /* Button hover styles */
 .button:hover {
-  background-color: #448717;
+  background-color: #1b1c1a;
 }
 
 /* Button focus styles */
@@ -162,7 +162,7 @@ code {
 
 /* Button active styles */
 .button:active {
-  background-color: #448717;
+  background-color: #1b1c1a;
 }
 
 /* Button disabled styles */

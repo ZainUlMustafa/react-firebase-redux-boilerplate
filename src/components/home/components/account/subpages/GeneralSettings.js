@@ -193,14 +193,14 @@ const GeneralSettings = (props) => {
               isUpdating ?
                 <Button variant="contained" disabled sx={{
                   "&.Mui-disabled": {
-                    backgroundColor: '#448717',
+                    backgroundColor: '#1b1c1a',
                     color: '#D9D9D9'
                   },
                   marginInline: '2px',
                   textTransform: 'initial',
-                  color: '#448717',
-                  backgroundColor: '#448717', ':hover': {
-                    backgroundColor: '#448717'
+                  color: '#1b1c1a',
+                  backgroundColor: '#1b1c1a', ':hover': {
+                    backgroundColor: '#1b1c1a'
                   }
                 }} >
                   <CircularProgress variant="indeterminate" size={15} sx={{ color: 'white' }} /><span style={{ paddingLeft: '15px' }}>Updating</span>
@@ -210,8 +210,8 @@ const GeneralSettings = (props) => {
                   sx={{
                     marginInline: '2px',
                     textTransform: 'initial',
-                    backgroundColor: '#448717', ':hover': {
-                      backgroundColor: '#448717'
+                    backgroundColor: '#1b1c1a', ':hover': {
+                      backgroundColor: '#1b1c1a'
                     },
                   }} onClick={() => { props.updateButton(organization, accountTitle, countryName, uid) }} >Update details</Button>
             }

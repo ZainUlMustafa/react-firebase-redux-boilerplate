@@ -50,7 +50,7 @@ const textInputTheme = createTheme({
       // main: "#ec2121",
     },
     secondary: {
-      main: "#448717"
+      main: "#1b1c1a"
     }
   }
 });
@@ -80,7 +80,7 @@ function RegisterForm(props) {
     },
     tryForFreeButton: {
       textTransform: "capitalize",
-      backgroundColor: "#448717",
+      backgroundColor: "#1b1c1a",
       color: "white",
       marginBottom: "15px",
       borderRadius: '2px',
@@ -140,9 +140,9 @@ function RegisterForm(props) {
 
   const relevantSubmitComponent = showLoader ? (
     <Button variant="contained" disabled sx={{
-      textTransform: 'initial', backgroundColor: '#448717', color: '#D9D9D9',
+      textTransform: 'initial', backgroundColor: '#1b1c1a', color: '#D9D9D9',
       "&.Mui-disabled": {
-        backgroundColor: '#448717',
+        backgroundColor: '#1b1c1a',
         color: '#D9D9D9'
       }
     }}>

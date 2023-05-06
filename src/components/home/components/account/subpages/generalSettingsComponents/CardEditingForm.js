@@ -143,8 +143,8 @@ const CardEditingForm = (props) => {
         sx={{
           marginInline: '2px',
           textTransform: 'initial',
-          backgroundColor: '#448717', ':hover': {
-            backgroundColor: '#448717'
+          backgroundColor: '#1b1c1a', ':hover': {
+            backgroundColor: '#1b1c1a'
           }
         }}
       >
@@ -155,14 +155,14 @@ const CardEditingForm = (props) => {
       <Button
         variant="contained" disabled sx={{
           "&.Mui-disabled": {
-            backgroundColor: '#448717',
+            backgroundColor: '#1b1c1a',
             color: '#D9D9D9'
           },
           marginInline: '2px',
           textTransform: 'initial',
-          color: '#448717',
-          backgroundColor: '#448717', ':hover': {
-            backgroundColor: '#448717'
+          color: '#1b1c1a',
+          backgroundColor: '#1b1c1a', ':hover': {
+            backgroundColor: '#1b1c1a'
           }
         }}
       >

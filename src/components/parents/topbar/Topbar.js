@@ -259,7 +259,7 @@ function Topbar(props) {
                     size="small"
                     style={{
                       paddingInline: '10px',
-                      backgroundColor: '#448717',
+                      backgroundColor: '#1b1c1a',
                       textTransform: "none",
                       color: "white",
                       cursor: 'pointer',
@@ -271,14 +271,14 @@ function Topbar(props) {
                       <>
                         <Button variant="contained" size="small" disabled sx={{
                           "&.Mui-disabled": {
-                            backgroundColor: '#448717',
+                            backgroundColor: '#1b1c1a',
                             color: '#D9D9D9'
                           },
                           marginInline: '10px',
                           textTransform: 'initial',
-                          color: '#448717',
-                          backgroundColor: '#448717', ':hover': {
-                            backgroundColor: '#448717'
+                          color: '#1b1c1a',
+                          backgroundColor: '#1b1c1a', ':hover': {
+                            backgroundColor: '#1b1c1a'
                           }
                         }} >
                           <CircularProgress variant="indeterminate" size={15} sx={{ color: 'white' }} /><span style={{ paddingLeft: '15px' }}>Generating...</span>
@@ -288,8 +288,8 @@ function Topbar(props) {
                         <Button variant="contained" size="small" sx={{
                           marginInline: '10px',
                           textTransform: 'initial',
-                          backgroundColor: '#448717', ':hover': {
-                            backgroundColor: '#448717'
+                          backgroundColor: '#1b1c1a', ':hover': {
+                            backgroundColor: '#1b1c1a'
                           },
                         }} onClick={handleGenReport}>Generate report</Button>
                       </Tooltip>

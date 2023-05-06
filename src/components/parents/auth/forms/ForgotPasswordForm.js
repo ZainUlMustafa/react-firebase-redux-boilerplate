@@ -33,7 +33,7 @@ const textInputTheme = createTheme({
             // main: "#ec2121",
         },
         secondary: {
-            main: "#448717"
+            main: "#1b1c1a"
         }
     }
 });
@@ -62,7 +62,7 @@ const styles = {
     },
     tryForFreeButton: {
         textTransform: "capitalize",
-        backgroundColor: "#448717",
+        backgroundColor: "#1b1c1a",
         color: "white",
         fontSize: "17px",
         marginBottom: "15px",

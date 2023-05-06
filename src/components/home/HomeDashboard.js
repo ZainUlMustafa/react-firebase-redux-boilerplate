@@ -11,7 +11,6 @@ const HomeDashboard = (props) => {
       <Container maxWidth="xl">
         <Toolbar />
       </Container>
-      {/* <AddProject /> */}
     </div>
   )
 }

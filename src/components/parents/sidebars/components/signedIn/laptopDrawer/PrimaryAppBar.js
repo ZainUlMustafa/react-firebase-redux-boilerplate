@@ -4,13 +4,10 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { connect } from "react-redux";
-import AppBarSearch from "./AppBarSearch";
 import { Link } from "react-router-dom";
 import ProfileInfo from "./ProfileInfo";
 import { useLocation } from "react-router-dom";
 import newlogo from "../../../../../../assets/logo/logo.jpeg";
-import GeneralNotification from "./GeneralNotification";
-import { Tooltip } from "@mui/material";
 
 
 const PrimaryAppBar = (props) => {
@@ -60,7 +57,6 @@ const PrimaryAppBar = (props) => {
               {appTitle}
             </Typography>
           </Link>
-          <AppBarSearch />
           <Box sx={{ flexGrow: 1 }} />
           
           <ProfileInfo />

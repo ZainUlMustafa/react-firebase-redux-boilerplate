@@ -29,7 +29,7 @@ const ProfileInfo = (props) => {
   function stringAvatar(name) {
     return {
       sx: {
-        bgcolor: isProjectDashboard?'#448717':'#1F0851',
+        bgcolor: isProjectDashboard?'#1b1c1a':'#1F0851',
         width: 35, height: 35,
         fontSize: 16,
       },
