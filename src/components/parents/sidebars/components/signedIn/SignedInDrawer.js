@@ -43,6 +43,10 @@ export default compose(
         storeAs: "OutputPredictions",
       },
       {
+        collection: "SensorsData",
+        storeAs: "SensorsData",
+      },
+      {
         collection: "Configurations",
         doc: "Charges",
         storeAs: "Charges",
@@ -55,10 +59,7 @@ export default compose(
       {
         collection: "Notifications",
         where: [['uid', '==', userData?.uid ?? '-1']],
-        // where: [['seachables', 'in', [userData?.uid??'-1', proid]]],
-        orderBy: [['dateCreated', 'desc']],
         storeAs: "GenNotifs",
-        limit: 10
       }
     ];
   })

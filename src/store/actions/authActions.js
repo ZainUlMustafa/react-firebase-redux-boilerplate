@@ -132,88 +132,16 @@ export const signUp = (fullName, email, orgName, password, country) => {
       password
     ).then(async (res) => {
       const uid = res.user.uid
-      const employeeid = "emp_" + firestore.collection("Companies").doc().id;
-      const newCoid = "webcom_" + uid;
-      const ueid = uid + employeeid;
-      const visibility = false;
 
       await res.user.sendEmailVerification();
-
-      await firestore
-        .collection("Companies")
-        .doc(newCoid)
-        .set({
-          countryName: country,
-          showFreshIntroMob: true,
-          showFreshIntroWeb: true,
-          isFreeTrialAvailed: false,
-          companyName: `${orgName}` ?? "",
-          companyNameLC: `${orgName}`.toLowerCase() ?? "",
-          creatorUid: `${uid}` ?? "",
-          creatorEmployeeid: `${employeeid}` ?? "",
-          coid: `${newCoid}`,
-          isStripeSetupComplete: false,
-          stripeCusId: "",
-          accessList: firestore.FieldValue.arrayUnion(`${ueid}`),
-          accessMap: {
-            [ueid]: {
-              access: 0,
-              name: `${fullName}` ?? "",
-              uid: `${uid}` ?? "",
-              employeeid: `${employeeid}` ?? "",
-            },
-          },
-          allMembers: {
-            [`${uid}`]: employeeid,
-          },
-          visibility: visibility,
-          profilePic: "",
-          email: `${email}` ?? "",
-          address: "",
-          phone: "",
-          credits: 0,
-          dateCreated: firestore.FieldValue.serverTimestamp(),
-          totalActiveCompanyMembers: 1,
-        });
-
-      // // add project to company briefings
-      await firestore
-        .collection(`Companies/${newCoid}/Briefings`)
-        .doc("projects")
-        .set({
-          all: {},
-        });
-
-      // add company to global collection
-      // if (visibility) {
-      //   await firestore
-      //     .collection("Global")
-      //     .doc("companies")
-      //     .update({
-      //       [`all.${newCoid}`]: {
-      //         coid: `${newCoid}`,
-      //         companyName: `${companyData.companyName}` ?? "",
-      //         companyNameLC: `${companyData.companyName}`.toLowerCase() ?? "",
-      //         creatorUid: `${userData.uid}` ?? "",
-      //       },
-      //     });
-      // }
       await firestore.collection("Users").doc(uid).set({
-        // ...credentials,
         uid: uid,
         countryName: country,
         email: email,
         name: fullName,
         nameLC: fullName.toLowerCase(),
         nameInitial: fullName[0],
-        coid: `${newCoid}`,
-        employeeid: `${employeeid}`,
         organizationName: orgName
-      });
-
-      dispatch({
-        type: "NEW_COMPANY_ADDED",
-        coid: newCoid,
       });
     }).then(() => {
       dispatch({

@@ -1,15 +1,16 @@
 import React from 'react'
 import { connect } from "react-redux";
 import { Container, Toolbar } from '@mui/material';
+import SensorSection from './components/sensors/SensorSection';
 const HomeDashboard = (props) => {
-  const { appBarHeight } = props
-  // console.log("APP BAR HEIGHT ", appBarHeight)
-  // console.log(props.companyData, 'comdata')
+  const {sensorsData} = props;
 
   return (
     <div style={{ backgroundColor: '' }}>
       <Container maxWidth="xl">
         <Toolbar />
+
+        <SensorSection sensorsData={sensorsData}/>
       </Container>
     </div>
   )
@@ -17,10 +18,10 @@ const HomeDashboard = (props) => {
 
 const mapStateToProps = (state) => {
   return {
-    companyData: state.firestore.data.Company,
     themeColors: state.theme,
     userData: state.firebase.profile,
-    project: state.project
+    project: state.project,
+    sensorsData: state.firestore.data.SensorsData,
   };
 };
 
