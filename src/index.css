@@ -82,14 +82,16 @@ button:focus {
 .App-SignedIn {
   background-color: #FAFAFA;
   /* background: linear-gradient(rgba(235, 235, 235, 1), rgba(228, 228, 228, 1)); */
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
+  /* position: absolute; */
+  /* min-width: 100%;
+  min-height: 100%; */
+  padding: 0;
+  margin: 0;
+  /* background-size: cover;
   background-position: center;
   overflow: auto;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   font-family: 'Lato', sans-serif;
 }
 
@@ -107,6 +109,7 @@ button:focus {
 }
 
 body {
+  margin: 0px;
   padding-left: 0px;
   /* font-family: 'Updock', cursive; */
   /* font-family: 'Montserrat', sans-serif; */

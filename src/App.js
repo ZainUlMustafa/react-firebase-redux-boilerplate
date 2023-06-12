@@ -13,6 +13,7 @@ const App = (props) => {
   return (
     // <BrowserRouter>
     <div 
+    style={{backgroundColor: ''}}
     // className={isSignedIn ? "" : "App"} 
     // style={{ height: isSignedIn ? `` : `calc(100vh - ${props.appBarHeightSignedOut}px)`,}}
     >

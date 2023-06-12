@@ -6,7 +6,7 @@ const HomeDashboard = (props) => {
   const {sensorsData} = props;
 
   return (
-    <div style={{ backgroundColor: '' }}>
+    <div style={{ backgroundColor: 'red', height: '100vh' }}>
       <Container maxWidth="xl">
         <Toolbar />
 
