@@ -67,11 +67,11 @@ function AuthIsLoaded({ children }) {
           <img src={LOGO} alt="LOGO" width="150px" height="auto" />
           <br />
           <br />
-          <p className='font-link' style={{ color: '#141414', fontSize: '30px' }}><b>Boilerplate</b></p>
+          <p className='font-link' style={{ color: '#141414', fontSize: '30px' }}><b>SRIS</b></p>
           <CustomProgress />
           <br />
           <br />
-          <p className='font-link' style={{ color: '#141414', fontSize: '18px' }}>Boilerplate by <u><a href="https://github.com/zainulmustafa" style={{ color: "#141414", textDecoration: 'none' }}>Zain Ul Mustafa</a></u></p>
+          <p className='font-link' style={{ color: '#141414', fontSize: '18px' }}>SRIS by <u><a href="https://github.com/zainulmustafa" style={{ color: "#141414", textDecoration: 'none' }}>Zain Ul Mustafa</a></u></p>
         </Container>
       </Box>
     )

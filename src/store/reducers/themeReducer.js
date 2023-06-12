@@ -1,7 +1,7 @@
 const initState = {
 
     // APP NAME
-    appTitle: "Boilerplate",
+    appTitle: "SRIS",
     appDescription: "An App",
     themeColor: "#1F0851",
     themeColorLight: "rgba(30, 30, 30, 0.85)",

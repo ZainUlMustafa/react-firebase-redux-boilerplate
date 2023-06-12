@@ -1,0 +1,40 @@
+{
+    "logs": [
+        {
+            "timestamp": "2023-06-12 10:05:32",
+            "reservoir": "Mini Reservoir A",
+            "volume": 150,
+            "percentage": 75
+        },
+        {
+            "timestamp": "2023-06-12 10:07:15",
+            "reservoir": "Mini Reservoir B",
+            "volume": 80,
+            "percentage": 40
+        },
+        {
+            "timestamp": "2023-06-12 10:10:22",
+            "reservoir": "Mini Reservoir C",
+            "volume": 200,
+            "percentage": 100
+        },
+        {
+            "timestamp": "2023-06-12 10:12:01",
+            "reservoir": "Mini Reservoir A",
+            "volume": 50,
+            "percentage": 25
+        },
+        {
+            "timestamp": "2023-06-12 10:14:30",
+            "reservoir": "Mini Reservoir B",
+            "volume": 120,
+            "percentage": 60
+        },
+        {
+            "timestamp": "2023-06-12 10:16:48",
+            "reservoir": "Mini Reservoir C",
+            "volume": 180,
+            "percentage": 90
+        }
+    ]
+}

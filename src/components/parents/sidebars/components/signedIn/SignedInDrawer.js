@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { compose } from "redux";
-import { firestoreConnect } from "react-redux-firebase";
+import { firebaseConnect, firestoreConnect } from "react-redux-firebase";
 import PrimaryAppBar from "./laptopDrawer/PrimaryAppBar";
 import { useLocation } from "react-router-dom";
+import { get } from "lodash";
 
 const SignedInDrawer = (props) => {
   const location = useLocation();
@@ -21,15 +22,17 @@ const SignedInDrawer = (props) => {
 };
 
 const mapStateToProps = (state) => {
+  // console.log(state.firebase.data)
   return {
     project: state.project,
     userData: state.firebase.profile,
     themeRed: state.themeRed,
+    sensorLogs: get(state.firebase.data, `logs`),
   };
 };
 const mapDispatchToProps = (dispatch) => {
   return {
-    
+
   };
 };
 export default compose(
@@ -62,5 +65,14 @@ export default compose(
         storeAs: "GenNotifs",
       }
     ];
-  })
+  }),
+  firebaseConnect((props) => {
+    // const project = props;
+    // const proid =
+    //   project !== undefined ? (project.proid ? project.proid : "-1") : "-1";
+
+    return [
+      `/logs`
+    ]
+  }),
 )(SignedInDrawer);

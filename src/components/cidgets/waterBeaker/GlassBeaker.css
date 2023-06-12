@@ -1,0 +1,30 @@
+@keyframes waterFlow {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.beaker {
+    width: 100%;
+    height: 300px;
+    background-color: #dffafc;
+    position: relative;
+    overflow: hidden;
+}
+
+.water {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, #0099ff 20%, #66ccff 80%);
+    background-size: 100% 20px;
+    animation: waterFlow 2s infinite;
+}
