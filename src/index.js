@@ -71,7 +71,7 @@ function AuthIsLoaded({ children }) {
           <CustomProgress />
           <br />
           <br />
-          <p className='font-link' style={{ color: '#141414', fontSize: '18px' }}>SRIS by <u><a href="https://github.com/zainulmustafa" style={{ color: "#141414", textDecoration: 'none' }}>Zain Ul Mustafa</a></u></p>
+          {/* <p className='font-link' style={{ color: '#141414', fontSize: '18px' }}>SRIS by <u><a href="https://github.com/zainulmustafa" style={{ color: "#141414", textDecoration: 'none' }}>Zain Ul Mustafa</a></u></p> */}
         </Container>
       </Box>
     )
